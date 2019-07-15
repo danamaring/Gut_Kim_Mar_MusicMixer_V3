@@ -1,0 +1,139 @@
+
+/* General settings */
+.hidden {
+  display: none;
+}
+
+body {
+  background-image: url("../images/main_background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Header */
+.title {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+/* Boombox */
+.boom_box {
+  background-image: url("../images/main_boombox.svg");
+  width: 700px;
+  height: 351px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: thin dashed black;
+}
+
+/* Boombox drag zones (TEMPORARY) */
+.tl { text-align: right; }
+.tr img { bottom: 0; }
+.tl img { bottom: 0; right: 0; }
+.bl img { right: 0; }
+
+.drop-zone {
+	width: 49.5%;
+	height: 49.5%;
+	border: thin dashed white;
+	float: left;
+	position: relative;
+}
+
+.drop-zone img {
+	width: 132px !important;
+	padding: 0 !important;
+	cursor: default;
+	position: absolute;
+}
+
+/* Parent container Flexbox */
+.parent_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Child container Flexbox */
+.container_tl {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 240px;
+  height: 164px;
+  flex-wrap: wrap;
+  margin: 20px;
+  position: relative;
+  flex-shrink: 2;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container_tl img {
+  width: 100px;
+  height: auto;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.container_bl {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 240px;
+  height: 164px;
+  flex-wrap: wrap;
+  margin: 20px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container_bl img {
+  width: 100px;
+  height: auto;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.container_br {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 240px;
+  height: 164px;
+  flex-wrap: wrap;
+  margin: 20px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container_br img {
+  width: 100px;
+  height: auto;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.container_tr {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 240px;
+  height: 164px;
+  flex-wrap: wrap;
+  margin: 20px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container_tr img {
+  width: 100px;
+  height: auto;
+  padding: 10px;
+  cursor: pointer;
+}
