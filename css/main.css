@@ -22,7 +22,7 @@ body {
 
 /* Boombox */
 .boom_box {
-  background-image: url("../images/main_boombox.svg");
+  background-image: url("../images/boom_box.svg");
   width: 700px;
   height: 351px;
   display: block;
